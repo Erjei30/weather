@@ -1,0 +1,42 @@
+body {
+  background-image: url(https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/620bd6d655f2044afa28bff4_glassmorphism.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  margin-top: 100px;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: black;
+}
+
+.keyword{
+  background-color: grey;
+  width: 150px;
+  height: 25px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.btn-search {
+  color: white;
+  background-color: transparent;
+  border: 3px solid lightblue;
+  border-radius: 8px;
+  padding: 7px 11px;
+}
+
+.btn-search:hover{
+  transition: 0.2s;
+  background-color: grey;
+}
